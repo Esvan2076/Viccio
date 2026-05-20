@@ -1,5 +1,5 @@
 <p align="center">
-  <h1 align="center">👓 Viccio</h1>
+  <h1 align="center">Viccio</h1>
   <p align="center">
     <strong>Intelligent voice-controlled assistive wearable for visually impaired users</strong>
   </p>
@@ -141,12 +141,12 @@ For reading emergency and navigational signs, we integrated **Google ML Kit's on
 
 Recognized text is run through a **regex-based sign classifier** that identifies:
 
-- 🚨 Emergency exits (*"Salida de emergencia"*)
-- 🧯 Fire extinguishers (*"Extintor"*)
-- 🚪 Exits (*"Salida"*)
-- 🔔 Alarms (*"Alarma"*)
-- 🏃 Evacuation routes (*"Ruta de evacuación"*)
-- ♻️ Waste sorting signs — organic, inorganic, plastic, metal
+- Emergency exits (*"Salida de emergencia"*)
+- Fire extinguishers (*"Extintor"*)
+- Exits (*"Salida"*)
+- Alarms (*"Alarma"*)
+- Evacuation routes (*"Ruta de evacuación"*)
+- Waste sorting signs — organic, inorganic, plastic, metal
 
 The regex patterns are intentionally **OCR-tolerant**, accounting for common misreads (e.g., `0` for `O`, `1` for `I`, `4` for `A`) to maximize reliability under imperfect real-world conditions.
 
@@ -324,11 +324,7 @@ The app functions as a **finite state machine** with the following states:
 | **Mass Production** | Create a scalable manufacturing and hardware assembly strategy. |
 | **Strategic Partnerships** | Forge alliances with NGOs, health organizations, and strategic allies to scale growth and reach those who need it most. |
 
----
 
-## License
-
-This project was built at **GuadalaHacks 2026**. See [LICENSE](LICENSE) for details.
 
 ---
 
