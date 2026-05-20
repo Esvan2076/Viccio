@@ -273,7 +273,7 @@ The app functions as a **finite state machine** with the following states:
 
 4. **Build and deploy**
    - Connect your Android device via USB
-   - Click **Run ▶** in Android Studio
+   - Click run in Android Studio
 
 ### ESP32-CAM Setup
 
